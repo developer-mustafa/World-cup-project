@@ -1,0 +1,202 @@
+/* Google Fonts Poppins,Sans-serif */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/*By defults style this website */
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+
+}
+/* Whole website style zone start */
+.wrapper {
+  width: 95%;
+  margin: 50px auto;
+  background-color:rgba(255, 255, 255, 0.717);
+  
+}
+.header-image-container {
+  background-color: #161616;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+}
+.header-text {
+  color: white;
+  width: 50%;
+  height: 400px;
+}
+.header-text h1 {
+  font-size: 3.5em;
+}
+.header-image {
+  width: 40%;
+  height: 465px;
+}
+.header-image img {
+  width: 100%;
+  height: 100%;
+}
+.header-text .btn {
+  margin-top: 50px;
+}
+.header-text .btn {
+  border: none;
+}
+.header-text .btn a {
+  padding: 15px 50px;
+  background-color: tomato;
+  border-radius: 10px;
+  transition: 400ms;
+}
+.header-text .btn a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+}
+.header-text .btn a:hover {
+  background-color: rgb(217, 33, 0);
+  cursor: pointer;
+  box-shadow: inset 0 0 20px white;
+}
+
+/* main-area-start */
+.main-container {
+  width: 100%;
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.main-container2 {
+  margin-bottom: 200px;
+}
+
+.small-box {
+  height: 350px;
+  width: 280px;
+  background-color: black;
+  border: 1px solid rgb(160, 160, 160);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.small-box .left-button {
+  border-radius: 10px;
+  transition: 400ms;
+  font-size: 1rem;
+  font-weight: 700;
+  width: 200px;
+  padding: 15px 30px;
+  background-color: #fff;
+  text-align: center;
+}
+.small-box .left-button:hover {
+  background-color: rgb(217, 33, 0);
+  cursor: pointer;
+  box-shadow: inset 0 0 20px white;
+  color: white;
+}
+.small-box .left-button a {
+  color: rgb(6, 6, 6);
+  text-decoration: none;
+}
+
+.small-box .left-button a:hover {
+  color: white;
+}
+.big-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+.player-button {
+  padding: 8px 20px;
+  font-weight: 700;
+  border: none;
+  transition: 400ms;
+  border-radius: 5px;
+  background-color: tomato;
+  color: white;
+}
+.player-button:hover {
+  background-color: rgb(217, 33, 0);
+  cursor: pointer;
+  box-shadow: inset 0 0 20px white;
+}
+.player-item {
+  border: 1px solid rgb(219, 219, 219);
+  border-radius: 10px;
+}
+.flag-image{
+  display: flex;
+  justify-content: space-around;
+}
+.flag-image img {
+  display: block;
+}
+.player-info {
+  margin: 15px;
+}
+.player-info p,.match-date p{
+  color:grey;
+
+}
+.player-info span {
+  margin-right: 25px;
+}
+.player-info i {
+  margin-right: 10px;
+}
+.match {
+  text-align: center;
+ 
+}
+
+footer {
+  margin-top: 100px;
+  background-color: rgb(3, 3, 3);
+}
+.footer-1 h1 {
+  text-align: center;
+  color: white;
+  height: 200px;
+  width: 70%;
+  padding-top: 100px;
+  margin: 0 auto;
+}
+.footer-1 hr {
+  width: 70%;
+  margin: 0 auto;
+  border-color: rgb(98, 98, 98);
+}
+.footer-2 {
+  height: 100px;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.footer-2 ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.footer-2 ul li {
+  list-style: none;
+}
+.footer-2 ul li a {
+  text-decoration: none;
+  color: white;
+}
+.footer-2 ul li a:hover {
+  color: tomato;
+}
