@@ -12,7 +12,7 @@ body {
 }
 /* Whole website style zone start */
 .wrapper {
-  width: 95%;
+  width: 100%;
   margin: 3.33% auto;
   background-color: rgba(255, 255, 255, 0.717);
   border:2px solid red;
@@ -297,7 +297,7 @@ footer {
 
   .small-box{
     height: 200px;
-    width:100%;
+    width:80%;
     margin-bottom: 30px;
 
     background-color:white;
