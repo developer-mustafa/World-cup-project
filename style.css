@@ -60,12 +60,11 @@ body {
   background-color: tomato;
   border-radius: 10px;
   transition: 400ms;
-}
-.header-text .btn a {
   text-decoration: none;
   font-size: 1rem;
   color: white;
 }
+
 .header-text .btn a:hover {
   background-color: rgb(217, 33, 0);
   cursor: pointer;
@@ -171,24 +170,41 @@ body {
 }
 
 
-footer {
-  color: white;
-  height: 200px;
-  width: 100%;
-  margin-top: 100px;
-  background-color: rgb(3, 3, 3);
-
-  margin: 0 auto;
+ .bottom-btn {
+  border: none;
+  margin:0 auto;
+  display: block;
+  
 }
-footer hr {
+.bottom-btn a {
+  padding: 15px 50px;
+  background-color: tomato;
+  border-radius: 10px;
+  transition: 400ms;
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+}
+
+.bottom-btn a:hover {
+  background-color: rgb(217, 33, 0);
+  cursor: pointer;
+  box-shadow: inset 0 0 20px white;
+}
+/* <!-- main content area end --> */
+
+
+/* footer area start */
+hr {
   width:100%;
   background-color: rgb(75, 75, 75);
 }
 footer {
-  height: 250px;
+  height: 350px;
   width: 100%;
   color: white;
-  
+  margin-top: 100px;
+  background-color: rgb(3, 3, 3);
 }
 footer h2{
   margin-top: 80px;
@@ -217,6 +233,7 @@ footer ul li a {
 footer ul li a:hover {
   color: tomato;
 }
+/* footer area end */
 
 /* animation area start */
 
@@ -250,6 +267,8 @@ footer ul li a:hover {
 /* animation area end */
 
 /* ---------Responsive area start---------- */
+
+
 
 /* mobile-devices */
 @media (max-width: 575.98px) {
@@ -298,15 +317,18 @@ footer ul li a:hover {
     background-color: white;
     border: none;
   }
- .footer-container h2,hr{
-  display:none;
+  footer{
+    width: 100%;
+  }
+ .footer-container hr{
+  visibility: hidden;
   
  }
  .footer-container ul{
   display: flex;
   flex-direction: column;
   align-items: center;
- 
+
   
  }
 
@@ -337,6 +359,7 @@ footer ul li a:hover {
   }
 
   .big-box {
+    display: grid;
     grid-template-columns: 1fr 1fr;
   }
   .small-box {
@@ -349,27 +372,15 @@ footer ul li a:hover {
     background-color: white;
     border: none;
   }
+
+  .bottom-btn{
+    visibility: visible;
+  }
 }
 
+/* responsive end */
 
-  
-  @media (max-width: 767.98px) { 
-    footer{
-      width:100%;
-    }
-    .footer-container{
-      width: 100%;
-    }
-    
-     }
+/* wrapper-end */
 
-  /* desktop devices */
-@media (min-width: 961px) and (max-width: 1366px) {
-  .header-image-container {
-    width: 90%;
-    
-  }
-  .footer-container ul{
-    width:100%;
-    
-  }   
+
+/* assignment 2 world cup website batch-06 programming hero ,Mustafa rahman */
